@@ -1,3 +1,4 @@
+CRON conf:
 #sent Confirmations cronjob
 * * * * * php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
 * * * * * sleep 15; php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run
@@ -24,18 +25,7 @@
 
 
 
-
-
-//ЗАМЕНЕНО НА 443 ПОРТ ВВИДУ ПЕРЕХОДА НА HTTPS://
-//АКТУАЛЬНЫЕ КОНФИГИ APACHE НИЖЕ
-    Перенаправление сервера на папкку с приложением. Прописывается в etc\apache2\apache2.conf
-    <VirtualHost *:80>
-            DocumentRoot "/home/ijn/apps/letme"
-            ServerName http://letme.ijn.su
-    </VirtualHost>
-
-
-//АКТУАЛЬНЫЕ КОНФИГИ APACHE:
+Apache conf:
 
 <VirtualHost *:80>
 
@@ -77,50 +67,25 @@ RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
 </VirtualHost>
 
 
-<VirtualHost *:80>
-
-        ServerName www.ijn.su
-        ServerAlias ijn.su
-        DocumentRoot /home/ijn/apps/ijnPortfolio
-
-        <Directory /home/ijn/apps/ijnPortfolio>
-                Options FollowSymLinks
-                AllowOverride All
-                Require all granted
-        </Directory>
-
-        <Directory /home/ijn/apps/ijnPortfolio/protected>
-                Options FollowSymLinks
-                AllowOverride All
-                Require all denied
-        </Directory>
-
-RewriteEngine on
-RewriteCond %{SERVER_NAME} =ijn.su [OR]
-RewriteCond %{SERVER_NAME} =www.ijn.su
-RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-</VirtualHost>
-
-
-//ДЛЯ ПОЛУЧЕНИЯ SSL ВСЕ ДЕЛАЕТ CERTBOT:
+//CERTBOT conf:
 https://certbot.eff.org/
-(ИНСТРУКЦИЯ НА САЙТЕ)
+(instructions is here)
 
 
-Для работы cURL установлены пакеты:
+I need cURL:
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get install php7.4-curl
 
 
 
-OAuth Yandex:
+OAuth Yandex config:
 eugeneilinykh@yandex.ru
 ID: d2c2d5f4b2ea489c9ae2e4b0b893157e
-Пароль: d553917baa2b4d7984f85836e8154373
+Password: d553917baa2b4d7984f85836e8154373
 Callback URL: http://letme.ijn.su/oauthyandex
 
 
-
+DKIM config:
 
 mail._domainkey IN      TXT     ( "v=DKIM1; h=sha256; k=rsa; "
           "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo9OptIHuOzoX5w/xmYDz/8CtCyx7KVbMJOzjjTTkLgJ/voAq4Aa8B3WyuKdRGoWQBaFWqNa+3ByASb+I8/zKL4fuNngoCVT8I5x4c0CkXRu9aHl/U/VE9KQZiNKSfZMR1c84ehb/qj8XXbCRwSi8MJq/EtQ7o784pjxqSjYW6NpQwZcrlcG04ht0M7avZyXTfBaI/N8btJstWy"
