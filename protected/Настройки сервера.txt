@@ -1,0 +1,65 @@
+﻿Ip-adress:
+45.140.167.55
+
+User:
+ijn-manager
+
+Password:
+gEtbeTTerDude!CA
+
+Group:
+ijn-group
+
+
+
+Настройки доступа:
+
+/etc/apache2/apache2.conf
+
+<Directory />
+        Options FollowSymLinks
+        AllowOverride None
+        Require all denied
+</Directory>
+
+<Directory /usr/share>
+        AllowOverride None
+        Require all granted
+</Directory>
+
+<Directory /home/ijn/protected>
+        Require all denied
+</Directory>
+
+<Directory /home/ijn>
+        Options Indexes FollowSymLinks ExecCGI
+        AllowOverride All
+        Require all granted
+</Directory>
+
+
+
+Отправка файлов на сервер:
+
+scp C:\Users\Admin\ijn\letme_work\letme_work.7z ijn-manager@45.140.167.55:/home/ijn/apps/letme
+
+
+
+Распаковка файлов из архива:
+7z x letme_work.7z
+
+
+Передача каталога с файлами другому владельцу:
+sudo chown -R ijn-manager:ijn-manager /home/ijn
+
+
+Создание группы:
+sudo addgroup ijn-group
+
+
+Добавление пользователя в группу:
+sudo adduser ijn-manager ijn-group
+
+
+Назначения прав доступа на каталог:
+sudo chmod -R 751 /home/ijn

@@ -1,0 +1,9 @@
+mail._domainkey IN      TXT     (
+"v=DKIM1; h=sha256; k=rsa; "
+"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo9OptIHuOzoX5w/xmYDz/8CtCyx7KVbMJOzjjTTkLgJ/voAq4Aa8B3WyuKdRGoWQBaFWqNa+3ByASb+I8/zKL4fuNngoCVT8I5x4c0CkXRu9aHl/U/VE9KQZiNKSfZMR1c84ehb/qj8XXbCRwSi8MJq/EtQ7o784pjxqSjYW6NpQwZcrlcG04ht0M7avZyXTfBaI/N8btJstWy"
+"KsFj12PbyCDT3rv3QzN3PTKhdu4ZtrnabwuKPFxgYmKlWKfzDxC8Ze2MaR2MiyLc3msb3XqYkToWU7VMYJq0DUKW3r1Kc9a74mrD7oQRQo+M693k7WDUFKZznn3mxGrV+nc1COFQIDAQAB" )  ; ----- DKIM key mail for ijn.su
+
+
+
+//Отформатирован под mail.ru
+"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo9OptIHuOzoX5w/xmYDz/8CtCyx7KVbMJOzjjTTkLgJ/voAq4Aa8B3WyuKdRGoWQBaFWqNa+3ByASb+I8/zKL4fuNngoCVT8I5x4c0CkXRu9aHl/U/VE9KQZiNKSfZMR1c84ehb/qj8XXbCRwSi8MJq/EtQ7o784pjxqSjYW6NpQwZcrlcG04ht0M7avZyXTfBaI/N8btJstWy"
