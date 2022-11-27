@@ -1,0 +1,141 @@
+/*common*/
+
+* {
+    touch-action: manipulation;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+
+button {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Nunito';
+    font-weight: 400;
+
+    /*media*/
+    height: 33px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button:active, button:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+
+.full-color-button {
+    background-color: rgb(60, 207, 255);
+    border: 0;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.6s;
+}
+
+.full-color-button:hover {
+    background-color: rgb(24, 181, 255);
+}
+
+
+.border-color-button {
+    background-color: rgba(60, 207, 255, 0);
+    color: rgb(38, 38, 38);
+    border: 1px solid rgb(60, 207, 255);
+    transition: color 0.5s, border-color 0.5s, background-color 0.5s;
+    box-sizing: border-box;
+
+}
+
+.border-color-button:hover {
+    color: rgb(8, 8, 8);
+    border-color: rgb(24, 181, 255);
+    background-color: rgba(60, 207, 255, 0.1);
+}
+
+
+.form {
+    width: 100%;
+}
+
+
+input {
+    width: 100%;
+    color: rgb(38, 38, 38);
+    background-color: rgb(250, 250, 250);
+    transition: border-color 1s;
+    box-sizing: border-box;
+    outline: none;
+
+    /*media*/
+    padding: 8px 16px;
+    border: 1px solid rgb(220, 226, 230);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+input:focus, input:hover {
+    border-color: rgb(60, 207, 255);
+}
+
+input::-webkit-input-placeholder {
+    transition: font-size 0.8s 0.2s, opacity 0.8s 0.2s;
+    -webkit-transition: font-size 0.8s 0.2s, opacity 0.8s;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-size: 0;
+}
+
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.inProcess {
+    /* empty class*/
+}
+
+.placeholder {
+    position: absolute;
+    color: rgb(145, 158, 168);
+
+    opacity: 1;
+    font-size: 14px;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+
+    transition: font-size 0.8s 0.2s, opacity 0.8s 0.2s;
+    -webkit-transition: font-size 0.8s 0.2s, opacity 0.8s;
+}
+
+.placeholder.inProcess {
+    opacity: 0;
+    font-size: 0px;
+}
+
+
+#refresh {
+    position: absolute;
+    height: 35px;
+    z-index: 100;
+    left: calc(50% - 17px);
+    top: 5px;
+}

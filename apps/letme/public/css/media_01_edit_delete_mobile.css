@@ -1,0 +1,132 @@
+@media screen
+and (pointer: coarse) {
+
+    html, body {
+        overscroll-behavior: none;
+    }
+
+    .note {
+        overflow: hidden;
+
+        /*media*/
+        min-height: 42px;
+    }
+
+    .note > span {
+        z-index: 5;
+        padding-right: 12px;
+    }
+
+    .note > img {
+        transition: right 0s;
+        filter: invert(1);
+        opacity: 1;
+        padding: 14px 10px;
+        outline: 18px solid rgba(0, 0, 0, 0);
+        outline-offset: 10px;
+        overflow: visible;
+        height: 18px;
+        width: 18px;
+    }
+
+
+    .note > img[data-type='delete'] {
+        right: -210px;
+        top: 1px;
+        z-index: 20;
+    }
+
+
+    .note > img[data-type='edit'] {
+        right: -166px;
+        top: 1px;
+        z-index: 20;
+    }
+
+
+    .note > img[data-type='toBottom'] {
+        right: -117px;
+        top: 1px;
+        z-index: 20;
+    }
+
+
+    .note > img[data-type='toTop'] {
+        right: -70px;
+        top: 1px;
+        z-index: 20;
+    }
+
+
+    .note > img[data-type='move'] {
+        right: 0px;
+        top: 0px;
+        height: 10px;
+        width: 10px;
+        z-index: 5;
+    }
+
+
+    .note > div[data-type='cover'] {
+        content: '';
+        display: flex;
+        position: absolute;
+        top: 0px;
+        right: -215px;
+        width: 210px;
+        height: 100%;
+        background-color: rgb(38, 38, 38);
+        border-radius: 0px 6px 6px 0px;
+        z-index: 10;
+        opacity: 0.8;
+        transition: right 0s;
+    }
+
+
+    .note.active > img[data-type='delete'] {
+        right: 0px;
+    }
+
+    .note.active > img[data-type='edit'] {
+        right: 49px;
+    }
+
+    .note.active > img[data-type='toBottom'] {
+        right: 98px;
+    }
+
+    .note.active > img[data-type='toTop'] {
+        right: 145px;
+    }
+
+    .note.active > div[data-type='cover'] {
+        right: 0px;
+    }
+
+
+
+    /*Languages block*/
+    #language-holder > div {
+        top: 28px;
+        left: -70px;
+        height: 35px;
+    }
+
+
+    #language-holder > div > img:first-of-type {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 14px;
+    }
+
+
+    #language-holder > div > img:not(:first-of-type) {
+        width: 49px;
+        height: 49px;
+        margin-bottom: 21px;
+        border-radius: 7px;
+    }
+
+
+
+}

@@ -1,0 +1,71 @@
+/*fonts*/
+@font-face {
+    font-family: "Nunito";
+    src: url("/public/fonts/nunito-regular-webfont.woff2") format("woff2");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/public/fonts/nunito-semibold-webfont.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/public/fonts/nunito-bold-webfont.woff2") format("woff2");
+    font-weight: 900;
+}
+
+
+/*Плавное появление на странице*/
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+body {
+    -webkit-animation: fade-in 0.8s linear !important; /* Safari 4+ */
+    -moz-animation: fade-in 0.8s linear !important; /* Fx 5+ */
+    -o-animation: fade-in 0.8s linear !important; /* Opera 12+ */
+    animation: fade-in 0.8s linear !important;; /* IE 10+, Fx 29+ */
+}
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}

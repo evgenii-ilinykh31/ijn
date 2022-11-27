@@ -1,0 +1,17 @@
+@media screen
+and (pointer: coarse) {
+
+
+    #flowLogin p, #flowLogin input, #flowLogin button {
+        font-size: 16px;
+    }
+
+    #regForm {
+        width: 330px;
+    }
+
+    #flowLogin button {
+        height: 38px;
+    }
+
+}

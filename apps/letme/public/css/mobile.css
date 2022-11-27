@@ -1,0 +1,557 @@
+
+html, body {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: rgb(145, 158, 168);
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+
+    /*media*/
+    font-size: 14px;
+}
+
+body{
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+#app, #content-wrapper, #content, #header, #main, #flowLogin, #flowJob, #promo, #reg-form {
+    display: flex;
+}
+
+#app {
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: fit-content;
+
+    /*media*/
+    width: 100%;
+}
+
+
+#content-wrapper {
+    justify-content: center;
+    /*align-items: center;*/
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+}
+
+
+#content {
+    transition: min-height 0.4s 0.6s, padding 0.4s 0.6s, border 0.8s;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /*margin-left: auto;*//*Закоменчено в процессе настройки расположения языка*/
+    /*margin-right: auto;*//*Закоменчено в процессе настройки расположения языка*/
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+
+    /*media*/
+    width: 100%;
+    height: 570px;
+    padding: 35px 0px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+/*LANGUAGE BLOCK*/
+#language-holder {
+    display: flex;
+    position: relative;
+    width: 0;
+    height: 100%;
+    z-index: 10;
+    visibility: visible;
+    opacity: 1;
+
+    transition: height 0.4s, visibility 0s 0.4s, opacity 0.4s 0.4s;
+}
+
+#content-wrapper.job > #language-holder {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#language-holder > div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 14px;
+    left: -39px;
+    height: 24px;
+    transition: left 0.4s 0.6s, height 0.4s;
+}
+
+#language-holder > div > img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+#language-holder > div > img:not(:first-of-type) {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s 0.4s, opacity 0.4s;
+}
+
+#language-cover {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.4s;
+}
+
+
+#language-holder.active > div {
+    height: 124px;
+}
+
+#language-holder.active > div > img:not(:first-of-type) {
+    opacity: 1;
+    visibility: visible;
+    transition: visilibity 0s, opacity 0.4s;
+}
+
+#language-holder.active > div > img:not(:first-of-type).active {
+    opacity: 0.5;
+}
+
+#language-holder.active + #language-cover {
+    width: 100%;
+    min-height: 100%;
+    max-height: 200%;
+    opacity: 0.2;
+    z-index: 9;
+}
+
+/*дополнительная секция включена из-за того, что в html слиты вместе два представления - авторизации и рабочее
+в авторизации оставляем секцию языков как она должна быть
+в рабочем - добавляем заплатку
+*/
+
+button.language.active {
+    opacity: 0.5;
+}
+
+
+
+
+
+#example {
+    height: 570px;
+    position: absolute;
+    background-size: auto 98.5%;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0%;
+    opacity: 1;
+    /*media*/
+    width: 290px;
+}
+
+#example.invisible {
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+#example.invisible.visible {
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+
+
+#header {
+    transition: height 0.4s 1s, margin 0.4s 1s, padding 0s 1s;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+
+    /*media*/
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+#logoName {
+    /*transition: height 0.4s 1s;*/
+    transition: transform 0.4s 1s;
+
+    z-index: 10;
+    /*media*/
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    flex-basis: 0%;
+    transform-origin: left center;
+}
+
+#popup-label-settings {
+    transition: flex-basis 0.6s 0s;
+
+    height: 80%;
+    width: 10px;
+    position: relative;
+    z-index: 5;
+    flex-basis: 0%;
+
+}
+
+#settings {
+    position: absolute;
+    right: 2px;
+    cursor: pointer;
+    transition: transform 0.6s;
+    transform: rotate(0deg);
+}
+
+#settings.active {
+    transform: rotate(90deg);
+}
+
+#main {
+    transition: border-top-color 0.4s 0s linear, padding 0.4s 0s;
+
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    position: relative;
+    border-top: 1px solid rgba(220, 226, 230, 0);
+}
+
+
+#flowLogin, #flowJob {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#flowLogin {
+    transition: opacity 0.2s 1.4s linear, visibility 0s 1.4s;
+
+    position: absolute;
+    opacity: 1;
+    z-index: 10;
+}
+
+#flowLogin.invisible {
+    opacity: 0;
+    transition: opacity 0.4s 0s;
+}
+
+#flowLogin.visible {
+    transition: opacity 0.4s 0s;
+}
+
+#flowJob {
+    transition: opacity 0.4s 0s linear;
+
+    height: fit-content;
+    width: 85%;
+    opacity: 0;
+    z-index: 5;
+}
+
+.note {
+    display: flex;
+    width: 100%;
+    position: relative;
+    color: rgb(38, 38, 38);
+    border: 1px solid rgb(220, 226, 230);
+    align-items: center;
+    transition: border-color 0.4s;
+    box-sizing: border-box;
+
+    /*media*/
+    margin-top: 18px;
+    padding: 6px 12px;
+    border-radius: 12px 6px 6px 0px;
+    min-height: 46px;
+}
+
+.note.active {
+    border-color: rgb(60, 207, 255);
+}
+
+.note:last-child {
+    margin-bottom: 20px;
+}
+
+.note > span {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding-right: 32px;
+    z-index: 5;
+}
+
+.note > img {
+    position: absolute;
+    width: auto;
+    cursor: pointer;
+    transition: opacity 0.5s linear;
+    opacity: 0.5;
+    z-index: 20;
+
+    /*media*/
+    height: 8px;
+}
+
+.note > img:hover {
+    opacity: 1;
+}
+
+
+.note > img[data-type='delete'] {
+    right: 4px;
+    top: 4px;
+}
+
+.note > img[data-type='edit'] {
+    right: 4px;
+    top: 16px;
+}
+
+.note > img[data-type='toTop'] {
+    right: 20px;
+    top: 4px;
+}
+
+.note > img[data-type='toBottom'] {
+    right: 20px;
+    top: 16px;
+}
+
+.note > img[data-type='move'] {
+    right: 4px;
+    top: 30px;
+}
+
+
+#undoDelete {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: calc(100% + 50px);
+    width: 80%;
+    height: 56px;
+    border-radius: 14px;
+    z-index: 20;
+    transition: top 0.6s, opacity 0s 0.65s linear;
+    opacity: 1;
+
+}
+
+#undoDelete.active {
+    top: calc(100% - 100px);
+    transition: top 0.6s, opacity 3.5s 0s linear;
+    opacity: 0;
+}
+
+#undoDelete.active.changeOpacity {
+    transition: top 0.6s, opacity 0.3s 0s linear;
+    opacity: 1;
+}
+
+#undoDelete.active:hover {
+    opacity: 1;
+    transition: top 0.6s, opacity 1s 0s linear;
+}
+
+
+#undoDelete > div:nth-of-type(1) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 38, 38);
+    opacity: 0.9;
+    border-radius: 14px;
+    z-index: 10;
+}
+
+#undoDelete > * {
+    z-index: 20;
+}
+
+#undoDelete > img {
+    left: 15px;
+    height: 18px;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+#undoDelete > span:nth-of-type(1) {
+    color: rgba(250, 250, 250, 1);
+    font-size: 14px;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+#undoDelete > div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 100;
+    padding-right: 14px;
+}
+
+#undoDelete > div:nth-of-type(2) > span {
+    cursor: pointer;
+    color: rgb(163, 248, 255);
+    font-size: 16px;
+    transition: color 0.6s;
+}
+
+#undoDelete > div:nth-of-type(2) > span:hover {
+    color: rgba(60, 207, 255, 1);
+}
+
+
+#promo {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /*media*/
+    margin-bottom: 15px;
+}
+
+#promo > p {
+    /*media*/
+    margin: 7px 0;
+}
+
+#regForm {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    /*media*/
+    width: 290px;
+}
+
+#login-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    width: 100%;
+
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+#login-border > .line {
+    display: flex;
+    height: 1px;
+    background-color: rgb(220, 226, 230);
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#login-border > .text {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+#oauth-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#oauth-block > a {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#oauth-block > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+#forgot-password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(0, 55, 107);
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+#loginWarning {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -30px;
+    z-index: 15;
+    max-width: 90%;
+
+    color: red;
+}
+
+#findNote-text {
+    height: 350px;
+}
+
+#footer {
+    transition: opacity 0.2s 1.4s linear, visibility 0s 1.4s;
+
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.company-footer-logo {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}

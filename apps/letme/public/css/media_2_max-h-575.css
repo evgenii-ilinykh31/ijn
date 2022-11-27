@@ -1,0 +1,21 @@
+@media screen
+and (max-height: 575px)
+{
+    html, body
+    {
+        min-height: 575px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #content
+    {
+        border-color: rgba(220, 226, 230, 0);
+    }
+
+
+    #content.job
+    {
+        border-color: rgba(220, 226, 230, 1);
+    }
+
+}

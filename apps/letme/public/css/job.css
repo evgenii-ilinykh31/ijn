@@ -1,0 +1,65 @@
+/*job influence*/
+
+
+#content-wrapper.job {
+}
+
+#content.job {
+    height: 100%;
+    padding: 0px;
+}
+
+#header.job {
+    transition: height 0.4s 0.2s, margin 0.4s 0.2s;
+
+    /*media*/
+    height: 35px;
+    margin: 12px 0;
+    padding: 0 20px;
+}
+
+#logoName.job {
+    transition: transform 0.4s 0.2s;
+    transform: scale(0.7);
+
+    /*transition: height 0.4s 0.2s;*/
+    /*height: 35px;*/
+
+}
+
+#popup-label-settings.job {
+    transition: flex-basis 0.6s 1s;
+    flex-basis: 100%;
+}
+
+
+#main.job {
+    transition: border-top-color 0.4s 1s linear, padding 0.4s 1s;
+
+    border-top-color: rgba(220, 226, 230, 1);
+    /*media*/
+    padding-top: 12px;
+}
+
+
+#flowLogin.job {
+    transition: opacity 0.2s 0s linear, visibility 0s 0.2s;
+
+    opacity: 0;
+    visibility: hidden;
+    z-index: 5;
+}
+
+#flowJob.job {
+    transition: opacity 0.4s 1s linear;
+
+    opacity: 1;
+    z-index: 10;
+}
+
+#footer.job {
+    transition: opacity 0.4s 0s linear, visibility 0s 0.4s;
+
+    visibility: hidden;
+    opacity: 0;
+}
