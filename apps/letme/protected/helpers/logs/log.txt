@@ -1,0 +1,193 @@
+
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604481556.6482  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604481571.656  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576696.8158  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576712.2294  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576727.1254  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576742.1674  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576757.2115  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576771.5627  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576786.5278  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576801.5572  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576816.55  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576831.9294  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576847.037  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576861.9251  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576877.0758  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576891.5309  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576906.4554  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576921.4387  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576936.424  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576951.825  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576966.8787  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576981.7773  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604576996.825  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577012.2896  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577027.1964  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577042.1639  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577057.2527  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577071.6736  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577086.6004  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577101.6002  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577116.6073  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577132.0184  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577146.9863  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577162.0863  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577176.9445  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577192.3374  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577207.2734  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577222.2887  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577237.2624  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577251.7045  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577266.6577  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577281.6115  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577296.6699  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577312.0637  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577327.0019  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577342.0144  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577357.0005  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577371.4374  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577386.5451  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577401.3338  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577416.3393  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577431.7847  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577446.6831  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577461.7251  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577476.6959  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577492.2097  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577507.2568  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577522.2204  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577537.1089  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577551.5763  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577566.45  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577581.4509  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577596.492  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577611.9472  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577626.84  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577641.9002  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577656.8449  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577672.2492  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577687.1994  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577702.1833  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577717.1759  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577731.6031  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577746.5529  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577761.5064  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577776.5088  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577791.9738  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577807.2031  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577821.8602  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577836.8305  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577852.2431  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577867.3735  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577882.1933  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577897.1885  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577911.7032  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577926.5171  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577941.5805  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577956.5093  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577971.923  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604577986.8552  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578001.8511  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578016.9262  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578032.3551  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578047.2895  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578062.2718  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578077.2765  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578091.6692  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578106.6417  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578121.6303  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578136.6228  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578152.0299  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578166.9511  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578181.959  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578197.2354  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578211.5916  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578226.5668  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578241.5463  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578256.5755  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578272.0563  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578287.0343  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578301.9328  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578316.9365  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604578332.3935  |  SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1604697872.1353  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1604697872.2144  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1605022246.8816  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1605022246.908  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1605287746.5022  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1605287746.5109  |  SQLSTATE[HY000] [2002] No such file or directory
+Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/ijn/apps/letme/protected/helpers/models/myPdo.php:36
+Stack trace:
+#0 /home/ijn/apps/letme/protected/helpers/models/myPdo.php(36): PDO->__construct()
+#1 /home/ijn/apps/letme/protected/helpers/models/myPdo.php(18): Helpers\Models\MyPdo::pdo()
+#2 /home/ijn/apps/letme/protected/helpers/models/passwordRestorings.php(47): Helpers\Models\MyPdo::getPDO()
+#3 /home/ijn/apps/letme/protected/helpers/cron_oldRestorePasswordLinksDeleter.php(26): Helpers\Models\PasswordRestorings::deleteOld()
+#4 /home/ijn/apps/letme/protected/helpers/cron_oldRestorePasswordLinksDeleter.php(31): Helpers\Cron_oldRestorePasswordLinksDeleter::main()
+#5 {main}
+  thrown in /home/ijn/apps/letme/protected/helpers/models/myPdo.php on line 36
+
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1605287761.9868  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1605287762.0011  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1605373412.167  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1605373412.1706  |  SQLSTATE[HY000] [2002] No such file or directory
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 152
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 158
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 158
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 158
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 124
+
+Parse error: syntax error, unexpected ')', expecting ';' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 161
+
+Parse error: syntax error, unexpected '}', expecting '(' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 165
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 164
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 169
+
+Parse error: syntax error, unexpected 'self' (T_STRING), expecting '(' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 180
+
+Parse error: syntax error, unexpected ')' in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 183
+
+Parse error: syntax error, unexpected 'userId' (T_STRING), expecting variable (T_VARIABLE) in /home/ijn/apps/letme/protected/helpers/models/notes.php on line 154
+
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1606075411.3064  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1606075411.3228  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1606333892.2947  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1606333892.3352  |  SQLSTATE[HY000] [2002] No such file or directory
+Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/ijn/apps/letme/protected/helpers/models/myPdo.php:36
+Stack trace:
+#0 /home/ijn/apps/letme/protected/helpers/models/myPdo.php(36): PDO->__construct()
+#1 /home/ijn/apps/letme/protected/helpers/models/myPdo.php(18): Helpers\Models\MyPdo::pdo()
+#2 /home/ijn/apps/letme/protected/helpers/models/passwordRestorings.php(47): Helpers\Models\MyPdo::getPDO()
+#3 /home/ijn/apps/letme/protected/helpers/cron_oldRestorePasswordLinksDeleter.php(26): Helpers\Models\PasswordRestorings::deleteOld()
+#4 /home/ijn/apps/letme/protected/helpers/cron_oldRestorePasswordLinksDeleter.php(31): Helpers\Cron_oldRestorePasswordLinksDeleter::main()
+#5 {main}
+  thrown in /home/ijn/apps/letme/protected/helpers/models/myPdo.php on line 36
+
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1625600761.6015  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1625600761.6048  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1625600776.5372  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1625600776.5392  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1627364956.9971  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1627364956.9971  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1628024701.491  |  SQLSTATE[HY000] [2006] MySQL server has gone away
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1628024701.5139  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php  |  restorePasswordSender  |  1628528432.0629  |  SQLSTATE[HY000] [2002] No such file or directory
+ /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php  |  sendAllUnsent  |  1628528432.0683  |  SQLSTATE[HY000] [2002] No such file or directory

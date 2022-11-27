@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru" style="position: fixed; overflow: hidden;">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSRF Token -->
+    <meta id="csrf-token" content="<!--{{csrf-token}}-->">
+
+
+    <title>LetMe</title>
+
+    <!---add icon link-->
+    <link rel="icon" href="/public/images/logo.svg" type="image/x-icon">
+
+    <!-- Scripts -->
+    <!--    <link rel="preload" href="/public/js/letme.js" as="script">-->
+
+    <!-- Fonts -->
+    <link rel="preload" href="/public/fonts/nunito-regular-webfont.woff2" as="font" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" href="/public/fonts/nunito-semibold-webfont.woff2" as="font" type="font/woff2"
+          crossorigin="anonymous">
+    <link rel="preload" href="/public/fonts/nunito-bold-webfont.woff2" as="font" type="font/woff2"
+          crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link rel="preload" href="/public/css/m.css" as="style">
+    <link rel="preload" href="/public/css/mobile.css" as="style">
+    <link rel="preload" href="/public/css/media_mobile.css" as="style">
+    <link rel="preload" href="/public/css/job.css" as="style">
+    <link rel="preload" href="/public/css/common.css" as="style">
+    <link rel="preload" href="/public/css/popup.css" as="style">
+    <link rel="preload" href="/public/css/media_1_min-w-475.css" as="style">
+    <link rel="preload" href="/public/css/media_2_max-h-575.css" as="style">
+    <link rel="preload" href="/public/css/media_3_min-w-875.css" as="style">
+
+    <link href="/public/css/m.css" rel="stylesheet">
+    <link href="/public/css/mobile.css?v=1" rel="stylesheet">
+    <link href="/public/css/media_mobile.css" rel="stylesheet">
+    <link href="/public/css/job.css" rel="stylesheet">
+    <link href="/public/css/common.css?v=6" rel="stylesheet">
+    <link href="/public/css/popup.css" rel="stylesheet">
+    <link href="/public/css/media_01_edit_delete_mobile.css" rel="stylesheet">
+    <link href="/public/css/media_1_min-w-475.css" rel="stylesheet">
+    <link href="/public/css/media_2_max-h-575.css" rel="stylesheet">
+    <link href="/public/css/media_3_min-w-875.css" rel="stylesheet">
+
+    <!--Images-->
+    <link rel="preload" href="/public/images/logo-name.png" as="image">
+
+</head>
+
+
+<body class="preload" style="<!--{{bodyStyle}}-->">
+
+<img id="refresh" src="/public/images/refresh.gif" style="opacity: 0; transition: opacity 0s;">
+
+<div id="app" class="login" style="<!--{{appStyle}}-->">
+    <div id="content-wrapper" class="login">
+
+        <div id="example" class="login" style="background-image: url(<!--{{exampleImage}}-->);" )></div>
+
+
+        <div id="content" class="login">
+
+
+            <div id="header" class="login">
+
+                <img id="logoName" class="login" src="/public/images/logo-name.png">
+                <label id="popup-label-settings" for="popup-input-settings" class="login">
+                    <img id="settings" src="/public/images/settings.svg" title="{{settingsTitle}}">
+                </label>
+
+            </div>
+
+            <div id="main" class="login">
+
+                <div id="flowLogin" class="login">
+                    <!--{{flowloginView}}-->
+                </div>
+                <div id="flowJob" class="login">
+                    <!--{{notes}}-->
+                </div>
+
+                <div id="undoDelete">
+                    <!--{{undoDelete}}-->
+                </div>
+
+            </div>
+
+            <span id="loginWarning" class="hidden"></span>
+
+        </div>
+
+        <div id="language-holder">
+            <div>
+                <img src="/public/images/logo-language.svg">
+                <!--{{authorizeLanguageView}}-->
+            </div>
+        </div>
+
+        <div id="language-cover"></div>
+
+    </div>
+
+
+    <div id="footer" class="login">
+        <p>© 2020 LETME BY <a href="http://www.ijn.su" class="company-footer-logo">IJN</a></p>
+    </div>
+
+
+    <!--Place with popups-->
+
+    <!--Settings popup-->
+    <input type="checkbox" id="popup-input-settings" class="popup-input">
+    <label for="popup-input-settings" class="popup-label-uncheck"></label>
+    <div id="settings-view" class="popup-div-wrapper">
+        <!--{{settingsView}}-->
+    </div>
+
+
+    <!--How to use popup-->
+    <input type="checkbox" id="popup-input-control" class="popup-input">
+    <label for="popup-input-control" class="popup-label-uncheck"></label>
+    <div id="control-view" class="popup-div-wrapper">
+        <!--{{controlView}}-->
+    </div>
+
+    <!--Language popup-->
+    <input type="checkbox" id="popup-input-language" class="popup-input">
+    <label for="popup-input-language" class="popup-label-uncheck"></label>
+    <div class="popup-div-wrapper">
+        <div class="popup-div control-div">
+            <div class="form">
+                <!--{{popupLanguageView}}-->
+            </div>
+        </div>
+    </div>
+
+
+    <!--Take note popup-->
+    <input type="checkbox" id="popup-input-takeNote" class="popup-input">
+    <label for="popup-input-takeNote" class="popup-label-uncheck"></label>
+    <div id="takenote-view" class="popup-div-wrapper">
+        <!--{{takenoteView}}-->
+    </div>
+
+
+    <!--Edit note popup-->
+    <input type="checkbox" id="popup-input-editNote" class="popup-input" data-processingId="">
+    <label for="popup-input-editNote" class="popup-label-uncheck"></label>
+    <div id="editNote-view" class="popup-div-wrapper">
+        <!--{{editnoteView}}-->
+    </div>
+
+
+    <!--Find note popup-->
+    <input type="checkbox" id="popup-input-findNotes" class="popup-input">
+    <label for="popup-input-findNotes" class="popup-label-uncheck"></label>
+    <div id="findnote-view" class="popup-div-wrapper">
+        <!--{{findnoteView}}-->
+    </div>
+
+
+    <!--Change password popup-->
+    <input type="checkbox" id="popup-input-changepassword" class="popup-input">
+    <label for="popup-input-changepassword" class="popup-label-uncheck"></label>
+    <div id="changepassword-view" class="popup-div-wrapper">
+        <!--{{changepasswordView}}-->
+    </div>
+
+    <!--Change password popup-->
+    <input type="checkbox" id="popup-input-restorePassword" class="popup-input">
+    <label for="popup-input-restorePassword" class="popup-label-uncheck"></label>
+    <div id="restorePassword" class="popup-div-wrapper">
+        <!--{{restorePasswordView}}-->
+    </div>
+
+
+    <!--Warning popup-->
+    <input type="checkbox" id="popup-input-jobWarning" class="popup-input">
+    <label for="popup-input-jobWarning" id="popup-label-jobWarning" class="popup-label-uncheck"></label>
+    <div class="popup-div-wrapper">
+        <div class="popup-div warning-div">
+            <div class="form">
+                <div id="jobWarning-text" contenteditable="true"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/public/js/letme.js" charset="utf-8" defer></script>
+</body>
+</html>

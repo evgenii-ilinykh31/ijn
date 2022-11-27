@@ -1,0 +1,129 @@
+#sent Confirmations cronjob
+* * * * * php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
+* * * * * sleep 15; php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run
+* * * * * sleep 30; php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run
+* * * * * sleep 45; php /home/ijn/apps/letme/protected/helpers/cron_confirmationSender.php schedule:run
+
+
+#delete unusedSessions cronjob
+* * * * * php /home/ijn/apps/letme/protected/helpers/cron_unusedSessionDeleter.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
+
+
+#delete unconfirmedAccounts cronjob
+* * * * * php /home/ijn/apps/letme/protected/helpers/cron_unconfirmedAccountsDeleter.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
+
+
+#sent PasswordRestorings cronjob
+* * * * * php /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
+* * * * * sleep 15; php /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php schedule:run
+* * * * * sleep 30; php /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php schedule:run
+* * * * * sleep 45; php /home/ijn/apps/letme/protected/helpers/cron_restorePasswordSender.php schedule:run
+
+#delete old PasswordRestorings cronjob
+* * * * * php /home/ijn/apps/letme/protected/helpers/cron_oldRestorePasswordLinksDeleter.php schedule:run >> /home/ijn/apps/letme/protected/helpers/logs/log.txt
+
+
+
+
+
+//ЗАМЕНЕНО НА 443 ПОРТ ВВИДУ ПЕРЕХОДА НА HTTPS://
+//АКТУАЛЬНЫЕ КОНФИГИ APACHE НИЖЕ
+    Перенаправление сервера на папкку с приложением. Прописывается в etc\apache2\apache2.conf
+    <VirtualHost *:80>
+            DocumentRoot "/home/ijn/apps/letme"
+            ServerName http://letme.ijn.su
+    </VirtualHost>
+
+
+//АКТУАЛЬНЫЕ КОНФИГИ APACHE:
+
+<VirtualHost *:80>
+
+        ServerName www.letme.ijn.su
+        ServerAlias letme.ijn.su
+        Redirect / https://www.letme.ijn.su/
+
+</VirtualHost>
+
+
+<VirtualHost _default_:443>
+        ServerName www.letme.ijn.su
+        ServerAlias letme.ijn.su
+
+        DocumentRoot /home/ijn/apps/letme
+
+        <Directory /home/ijn/apps/letme>
+                Options FollowSymLinks
+                AllowOverride All
+                Require all granted
+
+                RewriteEngine on
+                RewriteCond %{REQUEST_FILENAME} !-d
+                RewriteCond %{REQUEST_FILENAME} !-f
+                RewriteRule . index.php [L]
+
+        </Directory>
+
+        <Directory /home/ijn/apps/letme/protected>
+                Options FollowSymLinks
+                AllowOverride All
+                Require all denied
+        </Directory>
+
+RewriteCond %{SERVER_NAME} =letme.ijn.su [OR]
+RewriteCond %{SERVER_NAME} =www.letme.ijn.su
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+
+</VirtualHost>
+
+
+<VirtualHost *:80>
+
+        ServerName www.ijn.su
+        ServerAlias ijn.su
+        DocumentRoot /home/ijn/apps/ijnPortfolio
+
+        <Directory /home/ijn/apps/ijnPortfolio>
+                Options FollowSymLinks
+                AllowOverride All
+                Require all granted
+        </Directory>
+
+        <Directory /home/ijn/apps/ijnPortfolio/protected>
+                Options FollowSymLinks
+                AllowOverride All
+                Require all denied
+        </Directory>
+
+RewriteEngine on
+RewriteCond %{SERVER_NAME} =ijn.su [OR]
+RewriteCond %{SERVER_NAME} =www.ijn.su
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+</VirtualHost>
+
+
+//ДЛЯ ПОЛУЧЕНИЯ SSL ВСЕ ДЕЛАЕТ CERTBOT:
+https://certbot.eff.org/
+(ИНСТРУКЦИЯ НА САЙТЕ)
+
+
+Для работы cURL установлены пакеты:
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get install php7.4-curl
+
+
+
+OAuth Yandex:
+eugeneilinykh@yandex.ru
+ID: d2c2d5f4b2ea489c9ae2e4b0b893157e
+Пароль: d553917baa2b4d7984f85836e8154373
+Callback URL: http://letme.ijn.su/oauthyandex
+
+
+
+
+mail._domainkey IN      TXT     ( "v=DKIM1; h=sha256; k=rsa; "
+          "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo9OptIHuOzoX5w/xmYDz/8CtCyx7KVbMJOzjjTTkLgJ/voAq4Aa8B3WyuKdRGoWQBaFWqNa+3ByASb+I8/zKL4fuNngoCVT8I5x4c0CkXRu9aHl/U/VE9KQZiNKSfZMR1c84ehb/qj8XXbCRwSi8MJq/EtQ7o784pjxqSjYW6NpQwZcrlcG04ht0M7avZyXTfBaI/N8btJstWy"
+          "KsFj12PbyCDT3rv3QzN3PTKhdu4ZtrnabwuKPFxgYmKlWKfzDxC8Ze2MaR2MiyLc3msb3XqYkToWU7VMYJq0DUKW3r1Kc9a74mrD7oQRQo+M693k7WDUFKZznn3mxGrV+nc1COFQIDAQAB" )  ; ----- DKIM key mail for ijn.su
+
+

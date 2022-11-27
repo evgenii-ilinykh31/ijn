@@ -1,0 +1,33 @@
+Database{
+letme
+}
+
+User{
+ijn_letme_mr-user-CA
+}
+
+Password{
+]Jvh!"VY7X_^"m)k
+}
+
+
+createDatabase{
+CREATE DATABASE letme CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+}
+
+createUser{
+CREATE USER 'ijn_letme_mr-user-CA'@'localhost' identified by ']Jvh!"VY7X_^"m)k';
+}
+
+privileges{
+GRANT SELECT, CREATE, DELETE, INSERT, UPDATE ON letme.* TO 'ijn_letme_mr-user-CA'@'localhost';
+}
+
+
+
+
+
+
+select * from notes; select * from confirmations; select * from sessions; select * from users; select * from passwordRestorings;
+truncate table confirmations; truncate table users; truncate table sessions; truncate table notes; truncate table passwordRestorings;
+drop table confirmations; drop table users; drop table sessions; drop table notes; drop table passwordRestorings;
